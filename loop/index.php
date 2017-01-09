@@ -39,6 +39,11 @@
 	</h1>
 	<br>
 
+	<h1 class="exo7">exo 7loop 
+		<?php include "../loop/exercice7.php"; ?>
+	</h1>
+	<br>
+
 
 
 </body>
