@@ -2,6 +2,7 @@
 require __DIR__ . '/../array/exercice4.php';
 require __DIR__ . '/../array/exercice5.php';
 
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -38,6 +39,12 @@ require __DIR__ . '/../array/exercice5.php';
 	<h1>
 		exo 5 : 
 		<?php print_r($departement);  ?>
+	</h1>
+	<br>
+
+	<h1>
+		exo 6 : 
+		<?php  require __DIR__ . '/../array/exercice6.php';  ?>
 	</h1>
 	<br>
 
