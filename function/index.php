@@ -5,6 +5,7 @@ require __DIR__ . '/../function/exercice4.php';
 require __DIR__ . '/../function/exercice5.php';
 require __DIR__ . '/../function/exercice6.php';
 require __DIR__ . '/../function/exercice7.php';
+require __DIR__ . '/../function/exercice8.php';
 
 ?>
 
@@ -57,6 +58,13 @@ require __DIR__ . '/../function/exercice7.php';
 		<?php exo7(30,"homme"); ?>	
 	</h1>
 	<br>
+
+	<h1 class="exo8">
+		exo 8
+		<?php exo8(); ?>	
+	</h1>
+	<br>
+
 
 </body>
 </html>
