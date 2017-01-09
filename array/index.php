@@ -21,5 +21,11 @@
 	</h1>
 	<br>
 
+	<h1>
+		exo 3 : 
+		<?php require __DIR__ . '/../array/exercice3.php'; ?>
+	</h1>
+	<br>
+
 </body>
 </html>

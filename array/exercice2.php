@@ -1,3 +1,3 @@
 <?php 
-$exo2 = print_r($month[1]);
+$exo2 = print_r($month[2]);
 ?>
