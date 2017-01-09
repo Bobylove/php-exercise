@@ -1,7 +1,6 @@
 <?php 
-function exo2() {
-	
-	var_dump(true);
-	return true;
+function exo2($carac = " plop ") {
+	echo $carac;
+	return $carac;
 }
 ?>

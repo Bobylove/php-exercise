@@ -13,6 +13,11 @@ require __DIR__ . '/../function/exercice2.php';?>
 <?php exo1(); ?>	
 </h1>
 <br>
+
+<h1 class="exo2">
+<?php exo2(); ?>	
+</h1>
+<br>
 	
 </body>
 </html>
