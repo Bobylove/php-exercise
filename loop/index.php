@@ -7,14 +7,22 @@
 </head>
 <body>
 	<h1 class="exo1">
-	exo 1 loop
-	<?php  include "../loop/exercice1.php"; ?> 
+		exo 1 loop
+		<?php  include "../loop/exercice1.php"; ?> 
 	</h1>
+	<br>
 
-<br>
+	<h1 class="exo2">exo 2 loop 
+		<?php include "../loop/exercice2.php"; ?>
+	</h1>
+	<br>
 
-<h1 class="exo2">exo 2 loop 
-<?php include "../loop/exercice2.php"; ?></h1>
+
+	<h1 class="exo3">exo 3 loop 
+		<?php include "../loop/exercice3.php"; ?>
+	</h1>
+	<br>
+
 
 </body>
 </html>
