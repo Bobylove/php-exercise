@@ -1,5 +1,7 @@
 <?php require __DIR__ . '/../function/exercice1.php';
-require __DIR__ . '/../function/exercice2.php';?>
+require __DIR__ . '/../function/exercice2.php';
+require __DIR__ . '/../function/exercice3.php';
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -16,6 +18,11 @@ require __DIR__ . '/../function/exercice2.php';?>
 
 <h1 class="exo2">
 <?php exo2(); ?>	
+</h1>
+<br>
+
+<h1 class="exo3">
+<?php exo3(); ?>	
 </h1>
 <br>
 	
