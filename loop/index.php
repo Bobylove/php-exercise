@@ -24,5 +24,12 @@
 	<br>
 
 
+	<h1 class="exo4">exo 4 loop 
+		<?php include "../loop/exercice4.php"; ?>
+	</h1>
+	<br>
+
+
+
 </body>
 </html>
