@@ -1,4 +1,6 @@
 <?php require __DIR__ . '/../array/exercice1.php';
+require __DIR__ . '/../array/exercice4.php';
+require __DIR__ . '/../array/exercice5.php';
 
 ?>
 <!DOCTYPE html>
@@ -29,7 +31,13 @@
 
 	<h1>
 		exo 4 : 
-		<?php require __DIR__ . '/../array/exercice4.php'; ?>
+		<?php print_r($month); ?>
+	</h1>
+	<br>
+
+	<h1>
+		exo 5 : 
+		<?php print_r($departement);  ?>
 	</h1>
 	<br>
 
