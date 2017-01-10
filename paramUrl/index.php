@@ -12,6 +12,14 @@
 	</h1>
 	<br>
 
+	<h1 class="exo2">
+		exo 2 :
+		<a href="exercice2.php?nom=Nemare&prenom=Jean&age=20">Exo 2 liens</a>
+	</h1>
+	<br>
+
+
+
 
 </body>
 </html>
