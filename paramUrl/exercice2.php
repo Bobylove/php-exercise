@@ -8,5 +8,5 @@ if (isset($test)) {
 
 ?>
 <h4>
-	<a href="index.php?nom=Nemare&prenom=Jean">home</a>
+	<a href="index.php">home</a>
 </h4>

@@ -24,6 +24,12 @@
 	</h1>
 	<br>
 
+	<h1 class="exo4">
+		exo  4 :
+		<a href="exercice4.php?langage=PHP&serveur=LAMP">Exo 4 liens</a>
+	</h1>
+	<br>
+
 
 </body>
 </html>

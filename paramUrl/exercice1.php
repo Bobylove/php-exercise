@@ -4,5 +4,5 @@ echo $_GET["nom"]," ";
 echo $_GET["prenom"];
 
  ?>	
- <a href="index.php?nom=Nemare&prenom=Jean">home</a>
+ <a href="index.php">home</a>
 </h4>
