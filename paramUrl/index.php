@@ -30,6 +30,12 @@
 	</h1>
 	<br>
 
+	<h1 class="exo5">
+		exo  5 :
+		<a href="exercice5.php?semaine=12">Exo 5 liens</a>
+	</h1>
+	<br>
+
 
 </body>
 </html>
