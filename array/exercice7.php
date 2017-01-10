@@ -1,5 +1,5 @@
 <?php 
-$newDep = array("51" => "Reims");
+$departement["51"] = "Marne";
 
-$exo7 = array_push($departement, $newDep);
+
 ?>
