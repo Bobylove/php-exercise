@@ -62,5 +62,10 @@ require __DIR__ . '/../array/exercice7.php';
 	</h1>
 	<br>
 
+	<h1>
+		exo 9 : 
+		<?php include "exercice9.php" ?>
+	</h1>
+	<br>
 </body>
 </html>
