@@ -36,6 +36,11 @@
 	</h1>
 	<br>
 
+<h1 class="exo6">
+		exo  6 :
+		<a href="exercice6.php?batiment=12&salle=101">Exo 6 liens</a>
+	</h1>
+	<br>
 
 </body>
 </html>
