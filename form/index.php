@@ -1,4 +1,3 @@
-<?php require __DIR__ . "/../form/user.php"; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,6 +6,10 @@
 </head>
 <body>
 
+	<a href="index.php">HOME</a>
+
+	<?php require __DIR__ . "/../form/user.php"; ?>
+<!-- 
 	<h1>EXO 1 get</h1>
 	<form action="user.php" method="get">
 		<label for="nom">nom</label>
@@ -32,14 +35,14 @@
 	</form>
 	<br>
 	<br>
-
+ -->
 	
 
-<?php if (empty($_POST)) { ?>
+	<?php if (empty($_POST) || $extension !== $extension_valide[0]) { ?>
 	<h1>EXO 5 </h1>
-	<form action="index.php" method="post">
+	<form action="" method="post" enctype="multipart/form-data">
 		<select name="genre" id="genre">
-		<option value="monsieur">Mr</option>
+			<option value="monsieur">Mr</option>
 			<option value="madame">Mme</option>
 		</select>
 		<label for="nom2">nom</label>
@@ -54,16 +57,16 @@
 	</form>
 	<br>
 	<br>
-<?php 
-	echo " GG mec ta GERE";
+	<?php 
+	
 }else{
-	echo " try again ";
+     echo'BRAVO SA ROULE !';
 
 }
 ?>
 
 
 
-	
+
 </body>
 </html>
