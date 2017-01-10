@@ -18,7 +18,11 @@
 	</h1>
 	<br>
 
-
+	<h1 class="exo3">
+		exo  3 :
+		<a href="exercice3.php?dateDebut=2/05/2016&dateFin=27/11/2016">Exo 3 liens</a>
+	</h1>
+	<br>
 
 
 </body>
