@@ -33,6 +33,9 @@
 	<br>
 	<br>
 
+	
+
+<?php if (empty($_GET)) { ?>
 	<h1>EXO 5 </h1>
 	<form action="index.php" method="get">
 		<select name="genre" id="genre">
@@ -49,6 +52,14 @@
 	</form>
 	<br>
 	<br>
+<?php 
+	echo " GG mec ta GERE";
+}else{
+	echo " try again ";
+
+}
+?>
+
 
 
 	
