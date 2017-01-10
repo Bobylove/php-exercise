@@ -13,11 +13,12 @@ $prenom1 = $_POST["prenom1"]. " ";
 
 
 <?php 
-$nom2 = $_GET["nom2"]." ";
-$prenom2 = $_GET["prenom2"]. " ";
-$genre2 = $_GET["genre"]. " ";
+$nom2 = $_POST["nom2"]." ";
+$prenom2 = $_POST["prenom2"]. " ";
+$genre2 = $_POST["genre"]. " ";
+$file2 = $_POST["fichier"]." ";
 
 ?>
-<h1> exo 5 : <?php echo $genre2 .  $nom2 . $prenom2  ;?></h1>
+<h1> exo 5 : <?php echo $genre2 .  $nom2 . $prenom2 . $file2 ; ?></h1>
 
 

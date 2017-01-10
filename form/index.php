@@ -35,9 +35,9 @@
 
 	
 
-<?php if (empty($_GET)) { ?>
+<?php if (empty($_POST)) { ?>
 	<h1>EXO 5 </h1>
-	<form action="index.php" method="get">
+	<form action="index.php" method="post">
 		<select name="genre" id="genre">
 		<option value="monsieur">Mr</option>
 			<option value="madame">Mme</option>
@@ -47,6 +47,8 @@
 		<br>
 		<label for="prenom2">prenom</label>
 		<input name="prenom2" id="prenom2" type="text" placeholder="jean">
+		<br>
+		<input name="fichier" type="file">
 		<br>
 		<input type="submit">
 	</form>
