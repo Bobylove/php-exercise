@@ -26,9 +26,19 @@
 		$annees = 2016;
 		echo mktime($heures, $minutes, $secondes, $mois, $jours, $annees); ?></h4>
 		<h3><?php
-			$date = new DateTime(2016-8-2);
+			$date = new DateTime("2016-8-2");
 			echo $date->getTimestamp();
 			?>
 		</h3>
+		<br>
+		<br>
+		<h1>EXO 5 : <?php
+		$datetime1 = new DateTime('2016-8-2');
+			$datetime2 = new DateTime('2017-01-11');
+			$interval = $datetime1->diff($datetime2);
+			echo $interval->format('%R%a days');
+			?>
+
+		</h1>
 	</body>
 	</html>
