@@ -32,11 +32,20 @@
 		</h3>
 		<br>
 		<br>
+
 		<h1>EXO 5 : <?php
-		$datetime1 = new DateTime('2016-8-2');
+			$datetime1 = new DateTime('2016-8-2');
 			$datetime2 = new DateTime('2017-01-11');
 			$interval = $datetime1->diff($datetime2);
 			echo $interval->format('%R%a days');
+			?>
+		</h1>
+
+		<br>
+		<br>
+		<h1>EXO 6 : <?php
+			$number = cal_days_in_month(CAL_GREGORIAN, 2, 2016);
+			echo " $number jours an février 2016";
 			?>
 
 		</h1>
