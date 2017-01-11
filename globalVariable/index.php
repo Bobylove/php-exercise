@@ -1,3 +1,9 @@
+<?php 
+session_start();
+$_SESSION['nom'] = " del ";
+$_SESSION['prenom'] = "bob";
+$_SESSION['age'] = "30";
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,6 +20,8 @@ $serverName = $_SERVER["SERVER_NAME"]. " ";
 echo " server : $serverName //// userAgent : $userAgent  //// adresse ip : $ip" ;
 
 ?></h1>
+
+<a href="exo2.php">exo2 ICI</a>
 	
 </body>
 </html>
