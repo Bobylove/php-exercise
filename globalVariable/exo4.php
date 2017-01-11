@@ -7,6 +7,7 @@
 </head>
 <body>
 
+<a href="index.php">home</a>
 	<h2>
 	EXO 4 : 
 		<?php echo $_COOKIE['login'].$_COOKIE['mdp']; ?>

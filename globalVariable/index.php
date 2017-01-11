@@ -44,6 +44,9 @@ $_SESSION['age'] = "30";
 
 <br>
 <a href="exo4.php">lien exo4</a>
+<br>
+<a href="exo5.php">lien exo5</a>
+<br>
 		<h2>
 	EXO 4 : 
 		<?php echo $_COOKIE['login'].$_COOKIE['mdp']; ?>
