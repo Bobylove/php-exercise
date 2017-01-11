@@ -35,7 +35,7 @@
 
 		<h1>EXO 5 : <?php
 			$datetime1 = new DateTime('2016-8-2');
-			$datetime2 = new DateTime('2017-01-11');
+			$datetime2 = new DateTime('2017-01-11 15:00:00');
 			$interval = $datetime1->diff($datetime2);
 			echo $interval->format('%R%a days');
 			?>
@@ -49,5 +49,15 @@
 			?>
 
 		</h1>
+
+		<br>
+		<br>
+
+		<h1> exo 7  : Dans le future => <?php $tempsPlus20 = mktime(0, 0, 0, date("m")  , date("d")+20, date("Y"));
+
+			echo date('d/m/Y', $tempsPlus20);  ?>
+
+		</h1>
+
 	</body>
 	</html>
