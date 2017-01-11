@@ -1,5 +1,7 @@
 <?php 
 session_start();
+setcookie('login', $_POST['login'], time() + 365*24*3600, null, null, false, true); 
+setcookie('mdp', $_POST['mdp'], time() + 365*24*3600, null, null, false, true); 
 $_SESSION['nom'] = " del ";
 $_SESSION['prenom'] = "bob";
 $_SESSION['age'] = "30";
@@ -28,25 +30,26 @@ $_SESSION['age'] = "30";
 		<?php 
 		$login = $_POST["login"];
 		$mdp = $_POST["mdp"];
-		if(isset($_POST['login']) && isset($_POST['mdp'])){
-			setcookie('login', $_POST['login'], time() + 365*24*3600, null, null, false, true); 
-			setcookie('mdp', $_POST['mdp'], time() + 365*24*3600, null, null, false, true); 
-			header("Location: index.php");
-		}
 		?>
-		<form action="index.php" method="post">
+		<form action="#" method="post">
 			<label for="login">Login</label>
-			<input name="login" type="text" placeholder="login" value="<?php if(isset($_COOKIE['login'])) echo $_COOKIE['login'];?>">
+			<input name="login" type="text" placeholder="login">
 			<br>
 			<br>
 			<label for="mdp">Mot de pass</label>
-			<input type="text" name="mdp" placeholder="mot de pass" value="<?php if(isset($_COOKIE['mdp'])) echo $_COOKIE['mdp'];?>">
+			<input type="text" name="mdp" placeholder="mot de pass">
 			<br>
 			<input type="submit" value="Click Me">
 		</form>
+
+<br>
+<a href="exo4.php">lien exo4</a>
 		<h2>
-		<?php echo $_COOKIE['login'] . $_COOKIE['mdp']; ?>
-		</h2>
+	EXO 4 : 
+		<?php echo $_COOKIE['login'].$_COOKIE['mdp']; ?>
+	</h2>
+
+		
 
 
 	</body>
