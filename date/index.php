@@ -6,6 +6,9 @@
 	<title>Date</title>
 </head>
 <body>
-	<h1> nous somme le  : <?php echo date("j, n, Y");  ?></h1>
+	<h1> exo 1 nous somme le  : <?php echo date("j, n, Y");  ?></h1>
+	<br>
+	<br>
+	<h1> exo 2 nous somme le  : <?php echo date("j, n, y");  ?></h1>
 </body>
 </html>
