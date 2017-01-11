@@ -13,5 +13,22 @@
 	<br>
 	<br>
 	<h1> exo 3 nous somme le  : <?php echo date("l, j, F, y");  ?></h1>
-</body>
-</html>
+	<br>
+	<br>
+	<h1> exo 4 nous somme le  : <?php echo mktime(date("H"), date("i"), date("s"), date("n"), date("j"), date("Y"));  ?>	
+	</h1>
+	<h4><?php
+		$heures = 15 ;
+		$minutes = 00 ;
+		$secondes =  00;
+		$mois = 8 ;
+		$jours = 2;
+		$annees = 2016;
+		echo mktime($heures, $minutes, $secondes, $mois, $jours, $annees); ?></h4>
+		<h3><?php
+			$date = new DateTime(2016-8-2);
+			echo $date->getTimestamp();
+			?>
+		</h3>
+	</body>
+	</html>
