@@ -54,9 +54,13 @@
 		<br>
 
 		<h1> exo 7  : Dans le future => <?php $tempsPlus20 = mktime(0, 0, 0, date("m")  , date("d")+20, date("Y"));
-
 			echo date('d/m/Y', $tempsPlus20);  ?>
+		</h1>
 
+		<br>
+		<br>
+		<h1>EXO 8 : Dans le passé => <?php $tempsMoins20 = mktime(0, 0, 0, date("m")  , date("d")-20, date("Y"));
+			echo date('d/m/Y', $tempsMoins20);  ?> 
 		</h1>
 
 	</body>
